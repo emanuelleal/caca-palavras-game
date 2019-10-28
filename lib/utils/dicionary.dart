@@ -1,0 +1,50 @@
+import 'dart:math';
+
+class Dicionary {
+  final fruits = [
+      {"nome": "abacaxi", "dica": "fruta"},
+      {"nome": "carambola", "dica": "fruta"},
+      {"nome": "cocoverde", "dica": "fruta"},
+      {"nome": "figo", "dica": "fruta"},
+      {"nome": "framboesa", "dica": "fruta"},
+      {"nome": "frutadoconde", "dica": "fruta"},
+      {"nome": "laranja", "dica": "fruta"},
+      {"nome": "mamão", "dica": "fruta"},
+      {"nome": "maracujá", "dica": "fruta"},
+      {"nome": "melancia", "dica": "fruta"},
+      {"nome": "nectarina", "dica": "fruta"},
+      {"nome": "uva", "dica": "fruta"},
+      {"nome": "abacate", "dica": "fruta"},
+      {"nome": "ameixa", "dica": "fruta"},
+      {"nome": "caqui", "dica": "fruta"},
+      {"nome": "cidra", "dica": "fruta"},
+      {"nome": "jaca", "dica": "fruta"},
+      {"nome": "kiwi", "dica": "fruta"},
+      {"nome": "maçã", "dica": "fruta"},
+      {"nome": "pera", "dica": "fruta"},
+      {"nome": "tangerina", "dica": "fruta"},
+      {"nome": "mangostão", "dica": "fruta"},
+      {"nome": "marmelo", "dica": "fruta"},
+      {"nome": "mexerica", "dica": "fruta"},
+      {"nome": "caju", "dica": "fruta"},
+      {"nome": "lima", "dica": "fruta"},
+      {"nome": "morango", "dica": "fruta"},
+      {"nome": "jabuticaba", "dica": "fruta"},
+      {"nome": "nêspera", "dica": "fruta"},
+      {"nome": "tamarindo", "dica": "fruta"},
+      {"nome": "acerola", "dica": "fruta"},
+      {"nome": "manga", "dica": "fruta"},
+      {"nome": "banana", "dica": "fruta"},
+      {"nome": "coco", "dica": "fruta"},
+      {"nome": "cereja", "dica": "fruta"},
+      {"nome": "damasco", "dica": "fruta"},
+      {"nome": "graviola", "dica": "fruta"},
+      {"nome": "limão", "dica": "fruta"},
+      {"nome": "lichia", "dica": "fruta"},
+      {"nome": "melão", "dica": "fruta"},
+      {"nome": "pêssego", "dica": "fruta"},
+      {"nome": "romã", "dica": "fruta"}
+    ];
+
+  Map get getRandomFruit => fruits[Random().nextInt(fruits.length)];
+}
